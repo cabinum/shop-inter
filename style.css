@@ -9,6 +9,11 @@ body{
     display: none;
 }
 
+.container-fluid{
+    position: fixed;
+    background-color: lightcyan;
+}
+
 
 .tir{
     width: 100%;
