@@ -1,7 +1,7 @@
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #333;
-    color: white;
+    background-color: lightcyan;
+    color: black;
     padding: 20px;
     text-align: center;
     margin-top: 5vh;
@@ -22,17 +22,17 @@ footer {
 }
 
 .footer-section h2 {
-    color: #FFD700;
+    color: blue;
 }
 
 .footer-section ul {
     list-style: none;
     padding: 0;
-    color: whitesmoke;
+    color: rgb(8, 1, 1);
 }
 
 .footer-section ul li a{
-    color: whitesmoke;
+    color: blue;
     text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ footer {
 .footer-social a {
     display: inline-block;
     margin: 0 10px;
-    color: white;
+    color: blue;
     text-decoration: none;
     font-size: 20px;
 }
