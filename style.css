@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.tir{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(181, 250, 250);
+}
+
+.heads{
+    text-align: center;
+    color: blue;
+}
+
+.p3 h1{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 4vh;
+    color: blue;
+}
+
+header{
+    font-family: cursive;
+    background-color: lightcyan;
+}
+
+.bas{
+    margin-top: 3vh;
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+}
+
+.texte{
+    text-align: center;
+    margin-top: 10vh;
+    width: 40%;
+}
+
+.blue{
+    color: blue;
+}
+
+.image{
+    width: 40%;
+}
+
+.image img{
+    width: 100%;
+}
+
+.bla{
+    display: flex;
+    justify-content: center;
+}
+
+.p2{
+    margin-top: 2vh;
+    width: 60%;
+    background-color: lightcyan;
+    padding: 2vh;
+    border-bottom-right-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.p3{
+    padding: 1vh 10vh 0vh 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p3 img{
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+
+.nb{
+    gap: 5vh;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    background-color: lightcyan;
+}
+
+.texto{
+    width: 40%;
+}
+
+.imgo{
+    width: 40%;
+}
+
+.texto p{
+    padding: 18vh 0vh 0vh 0vh;
+}
+
+.imgo img{
+    width: 70%;
+}
+
+.texte1{
+    border-top-left-radius: 15vh;
+    padding: 2vh;
+    width: 40%;
+    background-color: lightcyan;
+}
+
+.texteo{
+    padding: 2vh;
+    width: 40%;
+    background-color: lightcyan;
+}
+
+.texte1 p{
+    margin-top: 18vh;
+    font-weight: bold;
+}
+
+.ctl{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.catalog h1{
+    margin-top: 5vh;
+}
+
+.centeo{
+    text-align: center;
+    font-family: cursive;
+}
+
+.mango{
+    display: none;
+}
+
+.avanta{
+    gap: 1vh;
+    display: flex;
+    overflow: scroll;
+    justify-content: center;
+}
+
+strong{
+    color: red;
+}
+
+.avanta .av1{
+    text-align: justify;
+    width: 20%;
+    background-color: lightcyan;
+    padding: 10px;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightcyan;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    color: blue;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    color: rgb(8, 1, 1);
+}
+
+.footer-section ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Pour les petits écrans (jusqu'à 600 pixels de large)*/
+@media only screen and (max-width: 600px) {
+    
+    
+    .heads{
+        text-align: center;
+        color: blue;
+        padding: 1vh;
+    }
+
+    p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+        font-size: 15px;
+        text-align: justify;
+    }
+    
+    .p3 h1{
+        font-family: Monospace;
+        text-align: center;
+        margin-top: 4vh;
+        color: blue;
+    }
+    
+    .p3 p{
+        background-color: lightcyan;
+        padding: 4vh;
+        border-radius: 0vh;
+        margin-bottom: 2vh;
+    }
+    
+    #modif1{
+        color: red;
+    }
+    
+    strong{
+        color: blue;
+    }
+    
+    header{
+        background-color: lightcyan;
+    }
+
+    .bas{
+        margin-top: 0vh;
+    }
+    
+    .p1{
+        display: inline-block;
+        justify-content: unset;
+    }
+    
+    .texte{
+        font-family: Monospace;
+        text-align: center;
+        margin-top: 2vh;
+        width: 100%;
+        padding: 0vh 1vh 0vh 1vh;
+    }
+    
+    .blue{
+        
+        display: none;
+    }
+    
+    .image{
+        width: 100%;
+        padding: 0vh 2vh 0vh 2vh;
+    }
+    
+    .image img{
+        width: 100%;
+    }
+    
+    .bla{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .p2{
+        margin-top: 2vh;
+        width: 60%;
+        background-color: lightcyan;
+        padding: 2vh;
+        border-bottom-right-radius: 5vh;
+        border-bottom-left-radius: 5vh;
+        line-height: 1.5;
+        font-weight: bold;
+    }
+    
+    .p3{
+        padding: 1vh 2vh 0vh 2vh;
+        font-weight: unset;
+    }
+    
+    .p3 img{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    
+    .texte1{
+        text-align: justify;
+        background-color: unset;
+        border-top-left-radius: 0vh;
+        width: 100%;
+        padding: 0vh 2vh 0vh 2vh;
+    }
+    
+    .texteo{
+        background-color: unset;
+        padding: 2vh;
+        width: 100%;
+        padding: 0vh 2vh 0vh 2vh;
+    }
+    
+    .texteo img{
+        border-radius: 1vh;
+    }
+    
+    .texte1 p{
+        margin-top: 2vh;
+        font-weight: unset;
+        line-height: 1.1;
+        font-size: 15px;
+    }
+    
+    .ctl{
+        display: inline-block;
+        justify-content: unset;
+        box-sizing: border-box;
+        background-color: lightcyan;
+        padding: 10px;
+    }
+    
+    .catalog h1{
+        margin-top: 3vh;
+    }
+    
+    .catalog{
+        padding: 2vh;
+    }
+    
+    .centeo{
+        text-align: center;
+    }
+
+    .mango{
+        display: block;
+        padding: 5px 5px 15px 5px;
+    }
+
+    .avanta{
+        gap: 1vh;
+        display: flex;
+        overflow: scroll;
+        justify-content: unset;
+    }
+    
+    .avanta .av1{
+        text-align: justify;
+        width: 95%;
+        background-color: lightcyan;
+        padding: 5px;
+    }
+}
+

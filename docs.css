@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: cursive;
+    line-height: 1.3;
+}
+
+header{
+    background-image: url(img/background-1789175_1280.png);
+    background-size: cover;
+    padding: 5vh;
+}
+
+header img{
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+
+header h1{
+    font-family: cursive;
+    text-align: center;
+    background-color: lightcyan;
+    color: blue;
+    border-radius: 15px;
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+.vendeur{
+    display: block;
+    margin: auto;
+    width: 85%;
+    text-align: justify;
+}
+
+.til{
+    text-align: center;
+    color: red;
+    font-family: cursive;
+}
+
+.til2{
+    color: blue;
+    text-align: center;
+    padding: 1px;
+    font-family: cursive;
+}
+
+.til3{
+    color: blue;
+    padding: 1px;
+}
+
+strong{
+    color: red;
+    font-size: 17px;
+}
+
+p{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    line-height: 1.5;
+}
+
+ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.avantage{
+    padding: 4vh;
+    background-color: lightcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    margin: auto;
+    width: 50%;
+    line-height: 1.3;
+}
+
+.opt{
+    gap: 2vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.opt li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    background-color: lightcyan;
+    width: 20%;
+}
+
+@media only screen and (max-width: 600px){
+    p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 1.3;
+    }
+    
+    header{
+        background-image: url(img/background-1789175_1280.png);
+        background-size: cover;
+        padding: 5vh;
+    }
+    
+    header img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    
+    header h1{
+        font-family: cursive;
+        text-align: center;
+        background-color: lightcyan;
+        color: blue;
+        border-radius: 15px;
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+    
+    .vendeur{
+        display: block;
+        margin: auto;
+        width: 90%;
+        padding: 0vh;
+        text-align: justify;
+    }
+    
+    .til{
+        text-align: center;
+        color: red;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .til2{
+        color: blue;
+        text-align: center;
+        padding: 1px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .til3{
+        color: blue;
+        padding: 1px;
+    }
+    
+    strong{
+        color: red;
+        font-size: 17px;
+    }
+    
+    p{
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        line-height: 1.5;
+    }
+    
+    ul{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .avantage{
+        padding: 5px;
+        background-color: lightcyan;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: block;
+        margin: auto;
+        width: 90%;
+        line-height: 1.3;
+    }
+    
+    .opt{
+        gap: 0vh;
+        display: inline-block;
+        justify-content: unset;
+        
+    }
+    
+    .opt li{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 10px;
+        background-color: lightcyan;
+        margin-top: 5px;
+        width: 92%;
+    }
+}
+
