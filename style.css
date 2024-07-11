@@ -9,11 +9,6 @@ body{
     display: none;
 }
 
-.container-fluid{
-    position: fixed;
-    background-color: lightcyan;
-}
-
 
 .tir{
     width: 100%;
@@ -348,9 +343,10 @@ footer {
     
     .texte1 p{
         margin-top: 2vh;
-        font-weight: unset;
-        line-height: 1.1;
+        font-weight: bold;
+        line-height: 1.3;
         font-size: 15px;
+        font-family: monospace;
     }
     
     .ctl{
